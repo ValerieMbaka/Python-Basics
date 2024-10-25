@@ -3,7 +3,8 @@ student = {
     "name": "Mark",
     "year": 2005,
     "school": "Multimedia University",
-    "mean_score": 80.1
+    "mean_score": 80.1,
+    "subjects": ["Mathematics", "Physics", "Chemistry"]
 }
 
 laptop = {
