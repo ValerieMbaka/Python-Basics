@@ -1,18 +1,18 @@
 # encapsulation - using private variables
 class BankAccount:
-    def __init__(self, name="Joyce", balance=50):
-        self.name = name # public attribute
-        self.__balance = balance # private attribute
-        print(f"My name: {self.name}, & balance: {self.__balance}")
+        def __init__(self, name="Joyce", balance=50):
+                self.name = name # public attribute
+                self.__balance = balance # private attribute
+                print(f"My name: {self.name}, & balance: {self.__balance}")
 
-    def deposit(self, amount):
-        self.__balance += amount
+        def deposit(self, amount):
+                self.__balance += amount
 
-    def withdraw(self, amount):
-        self.__balance -= amount
+        def withdraw(self, amount):
+                self.__balance -= amount
 
-    def get_balance(self):
-        return self.__balance
+        def get_balance(self):
+                return self.__balance
 
 
 defaultAccount = BankAccount()
