@@ -43,3 +43,6 @@ class Cat(Animal):
         def get_sound(self):
                 return "I produce meow sound"
 
+animal = Animal("man", 12, "speak", "walk")
+print(animal.get_sound())
+print(animal.get_move())
